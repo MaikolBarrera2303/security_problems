@@ -1,7 +1,4 @@
 <?php
-session_start();
-
-echo"<pre>";print_r($_SESSION["user"]);
 
 $folder = __DIR__;
 
@@ -20,3 +17,4 @@ foreach ($files as $file) {
 }
 
 echo "Archivos eliminados";
+
